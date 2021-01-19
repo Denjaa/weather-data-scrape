@@ -1,3 +1,3 @@
 # weather-data-scrape
 
-The idea of this project is to scrape the data for the weather for the specific location in Ireland. It scrapes data for that location for a period of 24 hours and it can re-activates itself every 20 minutes to check if new data is available
+Here is a project that basically goes to a weather website and scrapes the data for the last 24 hours including time. The scraped data is being stored in database that code automatically generates and if database is not available the code will create it. Every 10 minutes it goes to a site and scrapes the new data and stores it to database if it is not being scraped before. The user can specify until what time the code can stop executing itself or run it 24/7. Furthermore, I using Git to become better in it.
